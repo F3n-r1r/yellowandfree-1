@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import './utilities/_utilities';
+@import './pages/__pages';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;   
+}
+
+#__next {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: color(primary);
+    padding: 15px; 
+
+    &__headline {
+        color: #fff;
+        font-size: 24px;
+    }
+}
+
+.main {
+    padding: 15px;
+    background-color: color(secondary);
+    flex: 1;
+    overflow-x: hidden;
+}
+
+.footer {
+    padding: 15px;
+}

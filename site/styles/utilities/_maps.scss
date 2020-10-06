@@ -1,0 +1,17 @@
+$colors: ( 
+    primary: ( 
+        default:#fbd01e, 
+        light: lighten(#fbd01e, 15%),
+        dark: darken(#fbd01e, 15%)
+    ),
+    secondary: (
+        default: #f4f4f4,
+        light: ligten(#f4f4f4, 15%),
+        dark: darken(#f4f4f4, 15%)
+    ),
+    shade: (
+        default: #E8E8E8,
+        light: ligten(#E8E8E8, 15%),
+        dark: darken(#E8E8E8, 15%)
+    )
+)
